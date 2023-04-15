@@ -1,0 +1,15 @@
+☤ Instalación pragmática de Pipenv
+
+Si tienes una instalación funcional de pip, mantiene cierto «toolchain» escribe los módulos de Python como utilidades globales en tu entorno de usuario, pip instalación de usuario permite instalaciones en tu carpeta home. Nota que debido a interacciones entre dependencias, deberías limitar las herramientas instaladas de esta manera para un flujo de trabajo con Python como virtualenv, pipenv, tox y software similares.
+
+Para instalar:
+
+$ pip install --user pipenv
+
+Para más información mira la documentación de instalaciones de usuario, pero para agregar herramientas cli desde una instalación de usuario con pip a tu path, agrega el output de:
+
+$ python -c "import site; import os; print(os.path.join(site.USER_BASE, 'bin'))"
+
+Para actualizar pipenv en cualquier momento:
+
+$ pip install --user --upgrade pipen
