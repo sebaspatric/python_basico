@@ -1,0 +1,15 @@
+>>> listaTexto = ['hola','esto','es','un','texto']
+>>> print(listaTexto)
+['hola', 'esto', 'es', 'un', 'texto']
+>>> ' '
+' '
+>>> ''.join(list
+list(       listaTexto  
+>>> ''.join(list
+list(       listaTexto  
+>>> ''.join(listaTexto)
+'holaestoesuntexto'
+>>> ' '.join(listaTexto)
+'hola esto es un texto'
+>>> 
+
