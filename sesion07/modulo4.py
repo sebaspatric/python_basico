@@ -26,7 +26,7 @@ def main():
     obj.suma(2, 2)
     #obj.suma(1,2)
 
-    help(obj.suma)
+    #help(obj.suma)
 
 
  

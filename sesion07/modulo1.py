@@ -1,4 +1,4 @@
-import operaciones as op
+import python_basico.sesion07.operaciones1 as op
 import pprint
 import sys
 print("-----------------")
