@@ -1,0 +1,33 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "3eaeb52fcf3b1cb96d7e50e392d00075c02ced7783f98e029d2284b484044ba9"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.10"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "pysqlite3-binary": {
+            "hashes": [
+                "sha256:99b436a36815166b1f825d513cba4bd15fc909fdb35b32ac2694ab5255b52aea",
+                "sha256:c2a3f4b57918139f61bdf602e497e3eeedeaef462fb1ae8bee9b905eb8e791df",
+                "sha256:cf371dffde31275644b6f02e6c10345a9fac36941835dcbf6190cb2cef6ab470",
+                "sha256:d1e72b817c55d64c1614fcc4404599ca5033ad29a7be9c63b302545bae1c067c",
+                "sha256:d9acda79c25e6594d002db484c357685f1bf81619c665d394c8942ff737f9e57",
+                "sha256:fc9a1e6cf1226c4e47a987d722e227c4503dcc33b49a9873bb24bf8f11e673c8"
+            ],
+            "index": "pypi",
+            "version": "==0.5.0"
+        }
+    },
+    "develop": {}
+}
