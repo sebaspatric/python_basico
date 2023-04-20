@@ -15,14 +15,14 @@ def verifica_credenciales(username, password):
     cursor = conn.cursor()
 
     #query
-    #query = ("SELECT id FROM users WHERE username ='?'AND password ='?'", (username, password))
-    query = "SELECT id FROM users WHERE username ='{}' AND password ='{}'".format(username, password)
+    query = "SELECT id FROM users WHERE username =? AND password =?"
+    #query = "SELECT id FROM users WHERE username ='{}' AND password ='{}'".format(username, password)
     #mostrar query
     #query = f'SELECT id FROM users WHERE username ="{username}" AND password ="{password}"'
     
     print("query a ejercutar: ", query)
-
-    rows = cursor.execute(query)
+    rows = cursor.execute(query, (username, password,))
+    #rows = cursor.execute(query)
     data = rows.fetchone() #devuelve 1 elemento
     print("data es", type(data))
 
