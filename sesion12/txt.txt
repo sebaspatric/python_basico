@@ -1,0 +1,8 @@
+localhost:8080
+
+localhost:8080
+localhost:8080
+
+seba@seba-v:~/openbootcamp/python/python_basico/python_basico/sesion12/demoCurso$ sudo lsof -t -i tcp:8000 | xargs kill -9
+
+manage.py makemigrations
